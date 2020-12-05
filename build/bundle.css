@@ -1,4 +1,4 @@
-.main-footer.svelte-1y0pbn1{padding:1rem 0;position:relative;bottom:0;width:100%;text-align:center;background-color:#fff}img.svelte-1y0pbn1{display:block;margin:0 auto;text-align:center;width:10%}@media(max-width: 980px){img.svelte-1y0pbn1{width:10%}}nav.svelte-jnvl2v{border-bottom:0.2rem solid #ffcc00}/*! bulma.io v0.9.1 | MIT License | github.com/jgthms/bulma */
+.main-footer.svelte-1y0pbn1{padding:1rem 0;position:relative;bottom:0;width:100%;text-align:center;background-color:#fff}img.svelte-1y0pbn1{display:block;margin:0 auto;text-align:center;width:10%}@media(max-width: 980px){img.svelte-1y0pbn1{width:10%}}nav.svelte-1rgilya{border-bottom:0.2rem solid #ffcc00}li.svelte-1rgilya,.navbar-item.svelte-1rgilya,a.svelte-1rgilya{color:#ffcc00}/*! bulma.io v0.9.1 | MIT License | github.com/jgthms/bulma */
 /* Bulma Utilities */
 @-webkit-keyframes spinAround {
   from {
@@ -11621,4 +11621,4 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   background-color: #fafafa;
   padding: 3rem 1.5rem 6rem;
 }
-/*# sourceMappingURL=bulma.css.map */.content.svelte-12h4233{margin:0 auto;display:block;text-align:center}.card.svelte-osmu2q{display:block;text-align:center;width:30%;float:left;height:auto;box-shadow:none;border-radius:0;margin:1rem}.card-container.svelte-osmu2q{margin:0 auto;display:block;text-align:center}.card-content.svelte-osmu2q{height:8rem}
+/*# sourceMappingURL=bulma.css.map */.cards.svelte-odugax{margin:0 auto;display:block;text-align:center}.card.svelte-osmu2q{display:block;text-align:center;width:30%;float:left;height:auto;box-shadow:none;border-radius:0;margin:1rem}.card-container.svelte-osmu2q{margin:0 auto;display:block;text-align:center}.card-content.svelte-osmu2q{height:8rem}
