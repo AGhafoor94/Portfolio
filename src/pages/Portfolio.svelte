@@ -15,7 +15,6 @@
 
 <style>
   .cards {
-    padding: 1rem;
     margin: 0 auto;
     display: block;
     text-align: center;
@@ -23,7 +22,7 @@
 </style>
 
 <main>
-  <div in:fly={{ y: 200, duration: 2000 }} out:fade|local class="cards ">
+  <div in:fly={{ y: 200, duration: 2000 }} out:fade|local class="cards">
     {#each items as item, index}
       <Cards
         title={item.name}

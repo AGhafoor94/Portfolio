@@ -18,6 +18,11 @@
   nav {
     border-bottom: 0.2rem solid #ffcc00;
   }
+  li,
+  .navbar-item,
+  a {
+    color: #ffcc00;
+  }
 </style>
 
 <div class="page-container">
@@ -26,10 +31,10 @@
       <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
           <ul class="navbar-item">
-            <Link to="/">
+            <Link to="/Portfolio">
               <li>
                 <img
-                  src="/peace-symbol.svg"
+                  src="/Portfolio/peace-symbol.svg"
                   width="100"
                   height="25"
                   alt="Nav brand" />
@@ -53,15 +58,15 @@
 
         <div class="navbar-menu" id="navMenu">
           <div class="navbar-start">
-            <li class="navbar-item">
-              <Link to="/">Home</Link>
+            <li class="navbar-item" style="color: #ffcc00;">
+              <Link to="/Portfolio">Home</Link>
             </li>
-            <li class="navbar-item">
-              <Link to="/portfolio">Portfolio</Link>
+            <li class="navbar-item" style="color: #ffcc00;">
+              <Link to="/Portfolio/portfolio">Portfolio</Link>
             </li>
             <a
               class="navbar-item"
-              href="https://aghafoor94.github.io/portfolio-v3/static/media/Adnan_GhafoorCV.5b3c7719.pdf"
+              href="https://aghafoor94.github.io/Portfolio/cv_updated.pdf"
               target="_blank">CV</a>
           </div>
         </div>

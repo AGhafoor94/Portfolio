@@ -30,7 +30,7 @@
     <div class="columns is-desktop">
       <div class="column">
         <a href="https://github.com/AGhafoor94" target="_blank"><img
-            src="/github_icon.png"
+            src="/Portfolio/github_icon.png"
             alt="Github Icon" /></a>
       </div>
       <div class="column">
@@ -40,7 +40,7 @@
         <a
           href="https://uk.linkedin.com/in/adnan-ghafoor-9bb42b1aa"
           target="_blank"><img
-            src="/linkedin_logo.png"
+            src="/Portfolio/linkedin_logo.png"
             alt="Linkedin Icon" /></a>
       </div>
     </div>
