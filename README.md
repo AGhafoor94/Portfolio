@@ -1,1 +1,4 @@
 # My Updated Portfolio
+# FREE PALESTINE
+# BLACK LIVES MATTER
+# FREE PALESTINE
