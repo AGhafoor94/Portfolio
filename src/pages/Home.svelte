@@ -6,7 +6,7 @@
   <section class="hero is-medium" style="background-color: #333333">
     <div class="hero-body">
       <div class="container">
-        <img src="./palestine-flag.jpg" alt="FREE PALESTINE" />
+        <img src="/Portfolio/palestine-flag.jpg" alt="FREE PALESTINE" />
         <h1>FREE PALESTINE</h1>
         <h2
           in:fly={{ y: 200, duration: 2000 }}
@@ -14,8 +14,7 @@
           class="subtitle"
           style="color: #fff"
         >
-          Welcome to my new portfolio made with Svelte.<br />
-          I will be updating this with things I am learning and animations
+          FREE PALESTINE AND BLACK LIVES MATTER
         </h2>
       </div>
     </div>
