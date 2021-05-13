@@ -5,8 +5,9 @@
   import Error from "./Error.svelte";
 
   const getGitHubRepos = async () =>
-    await axios.get("https://api.github.com/users/AGhafoor94/repo ");
+    await axios.get("https://api.github.com/users/AGhafoor94/repos");
   let promise = getGitHubRepos();
+  export let githubStore;
 </script>
 
 <style>
@@ -14,6 +15,15 @@
     margin: 0 auto;
     display: block;
     text-align: center;
+  }
+
+  h1 {
+    font-weight: bold;
+    color: #333333;
+  }
+  p {
+    color: darkred;
+    padding: 10px 0;
   }
 </style>
 
@@ -32,12 +42,16 @@
           <p slot="link-1-text">GitHub Url</p>
           <p slot="link-2-text">Homepage</p>
         </Cards>
+        <button
+          on:click={() => {
+            githubStore.addToStore(index);
+          }}>Add to Store</button>
       {/each}
     </div>
   </main>
 {:catch error}
   <Error>
-    <h1 slot="statusCode">{error.response.status}</h1>
-    <p>{error.message}</p>
+    <h1 class="title" slot="statusCode">{error.response.status}</h1>
+    <p class="subtitle">{error.message}</p>
   </Error>
 {/await}

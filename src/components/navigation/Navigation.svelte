@@ -41,7 +41,6 @@
               </li>
             </Link>
           </ul>
-
           <a
             on:click={openNav}
             role="button"
@@ -68,6 +67,10 @@
               class="navbar-item"
               href="https://aghafoor94.github.io/Portfolio/cv_updated.pdf"
               target="_blank">CV</a>
+
+            <li class="navbar-item" style="color: #ffcc00;">
+              <Link to="/Portfolio/store">Trying Store</Link>
+            </li>
           </div>
         </div>
       </nav>
